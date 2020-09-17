@@ -5,9 +5,14 @@ backend:
     typeorm:
       ormConfig:
         - type: mysql
-          host: localhost
+          # host: localhost
+          host: 101.37.84.124
+          # host: rm-bp19hesn37211ry964o.mysql.rds.aliyuncs.com
           port: 3306
-          synchronize: true
+          synchronize: false
           username: root
-          password: root
-          database: test
+          # username: my_first_rds_ac
+          # password: docker_qa
+          password: docker_ecs
+          # password: docker_rds
+          database: crcrdb

@@ -6,6 +6,6 @@ export class HomeController {
     @Get()
     @View(TextView.VIEW_NAME)
     home(): string {
-        return 'Welcome to Malagu';
+        return 'Welcome to Malagu2';
     }
 }

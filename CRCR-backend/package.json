@@ -9,9 +9,11 @@
     "src"
   ],
   "dependencies": {
-    "@malagu/mvc": "next",
     "@malagu/fc-adapter": "next",
-    "@malagu/typeorm": "next"
+    "@malagu/mvc": "next",
+    "@malagu/typeorm": "next",
+    "inversify": "^5.0.1",
+    "jsonwebtoken": "^8.5.1"
   },
   "devDependencies": {
     "@malagu/cli": "next",
